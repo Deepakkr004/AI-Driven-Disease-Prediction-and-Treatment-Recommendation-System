@@ -112,6 +112,7 @@ python-chess==1.999
 python-dateutil==2.9.0.post0
 python-multipart==0.0.12
 pytz==2024.1
+pywin32==306 ; platform_system == "Windows"
 PyYAML==6.0.2
 pyzmq==26.0.3
 requests==2.32.3
@@ -139,7 +140,8 @@ tensorboard-data-server==0.7.2
 tensorflow==2.18.0
 tensorflow-io-gcs-filesystem==0.31.0
 tensorflow-serving-api==2.5.0
-tensorflow_intel==2.18.0
+tensorflow-intel>=2.12.0
+some-library<3.11
 termcolor==2.4.0
 threadpoolctl==3.5.0
 torch==2.5.1
